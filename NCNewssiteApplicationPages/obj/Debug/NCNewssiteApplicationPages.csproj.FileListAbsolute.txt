@@ -4,3 +4,9 @@ C:\Project\NCNewssite\NCNewssiteApplicationPages\GAC\JohnHolliday.Caml.Net.dll
 C:\Project\NCNewssite\NCNewssiteApplicationPages\obj\Debug\ResolveAssemblyReference.cache
 C:\Project\NCNewssite\NCNewssiteApplicationPages\obj\Debug\NCNewssiteApplicationPages.dll
 C:\Project\NCNewssite\NCNewssiteApplicationPages\obj\Debug\NCNewssiteApplicationPages.pdb
+C:\Users\Administrator\TestProject\NCNewssiteApplicationPages\GAC\NCNewssiteApplicationPages.dll
+C:\Users\Administrator\TestProject\NCNewssiteApplicationPages\GAC\NCNewssiteApplicationPages.pdb
+C:\Users\Administrator\TestProject\NCNewssiteApplicationPages\GAC\JohnHolliday.Caml.Net.dll
+C:\Users\Administrator\TestProject\NCNewssiteApplicationPages\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\TestProject\NCNewssiteApplicationPages\obj\Debug\NCNewssiteApplicationPages.dll
+C:\Users\Administrator\TestProject\NCNewssiteApplicationPages\obj\Debug\NCNewssiteApplicationPages.pdb

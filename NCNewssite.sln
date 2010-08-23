@@ -18,6 +18,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Build.bat = Build.bat
 		BuildAndDeploy.bat = BuildAndDeploy.bat
 		Deploy.bat = Deploy.bat
+		Local.testsettings = Local.testsettings
+		NCNewssite.vsmdi = NCNewssite.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 		Uninstall.bat = Uninstall.bat
 		Upgrade.bat = Upgrade.bat
 		Web Config settings.txt = Web Config settings.txt
@@ -31,7 +34,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssiteMiniCalendar", "N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssiteFlushCache", "NCNewssiteFlushCache\NCNewssiteFlushCache.csproj", "{A8A46117-27EC-418E-BCE2-7DEAB2EE2C4A}"
 EndProject
-Project("{00000000-0000-0000-0000-000000000000}") = "NCNewssitePatch3", "NCNewssitePatch3\NCNewssitePatch3.csproj", "{46D04C9A-A8C7-4C71-A46A-2931D92BFEC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssitePatch3", "NCNewssitePatch3\NCNewssitePatch3.csproj", "{46D04C9A-A8C7-4C71-A46A-2931D92BFEC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssiteTestProject", "NCNewssiteTestProject\NCNewssiteTestProject.csproj", "{47D29D60-C94F-4C38-A8E1-EA5C778513BA}"
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
@@ -72,6 +77,9 @@ Global
 		SccProjectUniqueName11 = NCNewssitePatch3\\NCNewssitePatch3.csproj
 		SccProjectName11 = NCNewssitePatch3
 		SccLocalPath11 = NCNewssitePatch3
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = NCNewssite.vsmdi
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -122,6 +130,10 @@ Global
 		{46D04C9A-A8C7-4C71-A46A-2931D92BFEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46D04C9A-A8C7-4C71-A46A-2931D92BFEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46D04C9A-A8C7-4C71-A46A-2931D92BFEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D29D60-C94F-4C38-A8E1-EA5C778513BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D29D60-C94F-4C38-A8E1-EA5C778513BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D29D60-C94F-4C38-A8E1-EA5C778513BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D29D60-C94F-4C38-A8E1-EA5C778513BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

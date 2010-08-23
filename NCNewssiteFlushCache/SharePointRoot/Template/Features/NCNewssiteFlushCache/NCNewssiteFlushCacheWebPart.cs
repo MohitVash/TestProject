@@ -67,18 +67,20 @@ namespace NCNewssiteFlushCache.UI.WebControls.WebParts
             {
                 try
                 {
-
-                    base.CreateChildControls();
-
-                    // Your code here...
-                    var _flushButton = new Button
+                    if (IsInEditMode)
                     {
-                        Text = "Flush Cache",
-                        Visible = this.IsInEditMode
-                    };
+                        base.CreateChildControls();
 
-                    _flushButton.Click += new EventHandler(_flushButton_Click);
-                    this.Controls.Add(_flushButton);
+                        // Your code here...
+                        var _flushButton = new Button
+                                               {
+                                                   Text = "Flush Cache",
+                                                   //Visible = this.IsInEditMode
+                                               };
+
+                        _flushButton.Click += new EventHandler(_flushButton_Click);
+                        this.Controls.Add(_flushButton);
+                    }
                 }
                 catch (Exception ex)
                 {

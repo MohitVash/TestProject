@@ -22,10 +22,17 @@
       <File id="A37BCDE7-AB06-422C-8461-42003E1BF72B/d:SharePointRoot/d:Template/d:Layouts/d:NCNewssiteApplicationPages/f:ArticleSelectDialog.aspx.cs" caret="3780" fromTop="26" />
       <File id="7D895CD5-BDCF-44A2-B397-217DA30E8157/d:SharePointRoot/d:Template/d:Features/d:NCMiniCalendar/f:NCMiniCalendarWebPart.cs" caret="12743" fromTop="39" />
       <File id="7D895CD5-BDCF-44A2-B397-217DA30E8157/d:SharePointRoot/d:Template/d:Features/d:NCMiniCalendar/f:NCMiniCalendarToolpart.cs" caret="3850" fromTop="32" />
-      <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch3AddPageLayoutWithLeftManu/f:NCNewssitePatch3AddPageLayoutWithLeftManuReceiver.cs" caret="0" fromTop="0" />
       <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch3AddMetadataColumntoArticleList/f:NCNewssitePatch3AddMetadataColumntoArticleListReceiver.cs" caret="1196" fromTop="27" />
       <File id="DD8A0E6C-A0DA-48F6-8FA5-D5D08CACFD97/d:SharePointRoot/d:Template/d:Features/d:NCNewssiteBrandingMasterFiles/f:screen.css" caret="20871" fromTop="20" />
       <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:CONTROLTEMPLATES/f:NCCustomTemplates.ascx" caret="0" fromTop="0" />
+      <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch3AddPageLayoutWithLeftManu/f:NCNewssitePatch3AddPageLayoutWithLeftManuReceiver.cs" caret="1349" fromTop="29" />
+      <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1PortalSetup/f:NCNewssitePatch1PortalSetupReceiver.cs" caret="0" fromTop="0" />
+      <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1PortalSetup/f:elements.xml" caret="0" fromTop="0" />
+      <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1Setup/f:NCNewssitePatch1SetupReceiver.cs" caret="1013" fromTop="22" />
+      <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1PortalSetup/f:feature.xml" caret="90" fromTop="0" />
+      <File id="A8A46117-27EC-418E-BCE2-7DEAB2EE2C4A/d:SharePointRoot/d:Template/d:Features/d:NCNewssiteFlushCache/f:NCNewssiteFlushCacheWebPart.cs" caret="1782" fromTop="16" />
+      <File id="A8A46117-27EC-418E-BCE2-7DEAB2EE2C4A/d:SharePointRoot/d:Template/d:Features/d:NCNewssiteFlushCache/f:NCNewssiteFlushCacheReceiver.cs" caret="1168" fromTop="20" />
+      <File id="47D29D60-C94F-4C38-A8E1-EA5C778513BA/f:UnitTest1.cs" caret="343" fromTop="13" />
     </RecentFiles>
     <RecentEdits>
       <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1AddRootPageToPageList/f:NCNewssitePatch1AddRootPageToPageListReceiver.cs" caret="796" fromTop="13" />
@@ -36,6 +43,11 @@
       <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:CONTROLTEMPLATES/f:NCCustomTemplates.ascx" caret="22657" fromTop="11" />
       <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:CONTROLTEMPLATES/f:NCCustomTemplates.ascx" caret="7457" fromTop="22" />
       <File id="DD8A0E6C-A0DA-48F6-8FA5-D5D08CACFD97/d:SharePointRoot/d:Template/d:Features/d:NCNewssiteBrandingMasterFiles/f:screen.css" caret="21195" fromTop="38" />
+      <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch3AddPageLayoutWithLeftManu/f:NCNewssitePatch3AddPageLayoutWithLeftManuReceiver.cs" caret="1687" fromTop="36" />
+      <File id="A8A46117-27EC-418E-BCE2-7DEAB2EE2C4A/d:SharePointRoot/d:Template/d:Features/d:NCNewssiteFlushCache/f:NCNewssiteFlushCacheWebPart.cs" caret="2679" fromTop="30" />
+      <File id="A8A46117-27EC-418E-BCE2-7DEAB2EE2C4A/d:SharePointRoot/d:Template/d:Features/d:NCNewssiteFlushCache/f:NCNewssiteFlushCacheWebPart.cs" caret="2680" fromTop="42" />
+      <File id="A8A46117-27EC-418E-BCE2-7DEAB2EE2C4A/d:SharePointRoot/d:Template/d:Features/d:NCNewssiteFlushCache/f:NCNewssiteFlushCacheWebPart.cs" caret="2434" fromTop="37" />
+      <File id="47D29D60-C94F-4C38-A8E1-EA5C778513BA/f:UnitTest1.cs" caret="343" fromTop="13" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -64,7 +76,7 @@
       <Item value="PublishingSite" priority="0" />
       <Item value="associatedContentType" priority="2" />
       <Item value="true" priority="3" />
-      <Item value="if" priority="1" />
+      <Item value="if" priority="2" />
       <Item value="null" priority="2" />
       <Item value="false" priority="1" />
       <Item value="PublishingWeb`0" priority="2" />
@@ -87,6 +99,7 @@
       <Item value="List" priority="0" />
       <Item value="newPageLayoutList" priority="0" />
       <Item value="adUser" priority="0" />
+      <Item value="Assert`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Microsoft.SharePoint.Publishing.PublishingWeb">
       <Item value="AllowAllPageLayouts`0" priority="1" />
@@ -131,6 +144,9 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:Microsoft.SharePoint.SPFieldUserValue">
       <Item value="User" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="Equals`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

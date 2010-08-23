@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8d0e647f-51a6-45fd-84d7-4f0e2e2891d0" name="administrator@SP2010SERVER 2010-08-23 13:17:02" runUser="TESTSP\administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="35abf1b6-301d-48d7-bc55-d9103e63e75e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="administrator_SP2010SERVER 2010-08-23 13_17_02" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-08-23T13:17:02.3623047+02:00" queuing="2010-08-23T13:17:03.9873047+02:00" start="2010-08-23T13:17:04.1523438+02:00" finish="2010-08-23T13:17:05.4804688+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\administrator\testproject\ncnewssitetestproject\bin\debug\ncnewssitetestproject.dll" id="ea66e771-4360-f853-a3f2-a4afff00f00b">
+      <Execution id="a6e6e963-260b-4483-83c4-9394945a6b3c" />
+      <TestMethod codeBase="C:/Users/Administrator/TestProject/NCNewssiteTestProject/bin/Debug/NCNewssiteTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NCNewssiteTestProject.UnitTest1, NCNewssiteTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ea66e771-4360-f853-a3f2-a4afff00f00b" executionId="a6e6e963-260b-4483-83c4-9394945a6b3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a6e6e963-260b-4483-83c4-9394945a6b3c" testId="ea66e771-4360-f853-a3f2-a4afff00f00b" testName="TestMethod1" computerName="SP2010SERVER" duration="00:00:00.2353042" startTime="2010-08-23T13:17:04.2031250+02:00" endTime="2010-08-23T13:17:05.3242188+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6e6e963-260b-4483-83c4-9394945a6b3c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Assert.Equals should not be used for Assertions. Please use Assert.AreEqual &amp; overloads instead.</Message>
+          <StackTrace>   at NCNewssiteTestProject.UnitTest1.TestMethod1() in C:\Users\Administrator\TestProject\NCNewssiteTestProject\UnitTest1.cs:line 15
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

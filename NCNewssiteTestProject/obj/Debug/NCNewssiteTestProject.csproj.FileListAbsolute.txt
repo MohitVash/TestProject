@@ -1,0 +1,5 @@
+C:\Users\Administrator\TestProject\NCNewssiteTestProject\bin\Debug\NCNewssiteTestProject.dll
+C:\Users\Administrator\TestProject\NCNewssiteTestProject\bin\Debug\NCNewssiteTestProject.pdb
+C:\Users\Administrator\TestProject\NCNewssiteTestProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\TestProject\NCNewssiteTestProject\obj\Debug\NCNewssiteTestProject.dll
+C:\Users\Administrator\TestProject\NCNewssiteTestProject\obj\Debug\NCNewssiteTestProject.pdb

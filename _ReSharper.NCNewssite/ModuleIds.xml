@@ -4,4 +4,6 @@
   <Module PersistentId="63A607D3-08B1-4D16-B521-1AC73DCD84C7" ModuleId="NCNewssitePatch2" />
   <Module PersistentId="7D895CD5-BDCF-44A2-B397-217DA30E8157" ModuleId="NCNewssiteMiniCalendar" />
   <Module PersistentId="A37BCDE7-AB06-422C-8461-42003E1BF72B" ModuleId="NCNewssiteApplicationPages" />
+  <Module PersistentId="A8A46117-27EC-418E-BCE2-7DEAB2EE2C4A" ModuleId="NCNewssiteFlushCache" />
+  <Module PersistentId="47D29D60-C94F-4C38-A8E1-EA5C778513BA" ModuleId="NCNewssiteTestProject" />
 </Modules>
