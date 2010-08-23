@@ -12,7 +12,7 @@ namespace NCNewssiteTestProject
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual("Test", "Test1");
+            Assert.AreEqual("Test", "Test");
         }
     }
 }
