@@ -35,6 +35,7 @@ namespace NCNewssitePatch3.EventHandlers.Features
                         publishingWeb.SetAvailablePageLayouts(newPageLayoutList.ToArray(),true);
                         publishingWeb.SetDefaultPageLayout(pageLayouts[0],true);
                         publishingWeb.Update();
+                        //Mohit
                     }
                 }
             }
