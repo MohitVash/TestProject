@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="ffd0c621-f326-48c4-ba39-ad36f8601975"
+          Title="NCNewsSitePatch2AddIsBlankSiteProperty"
+          Description="Thie feature adds the IsBlankSite Property to the exisiting webs"
+          Version="1.0.0.0"
+          Hidden="TRUE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2e6bc683c5314ddb"
+          ReceiverClass="NCNewssitePatch2.EventHandlers.Features.NCNewsSitePatch2AddIsBlankSitePropertyReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

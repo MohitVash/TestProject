@@ -1,0 +1,5 @@
+C:\Project\NCNewssite\NCNewssiteFlushCache\GAC\NCNewssiteFlushCache.dll
+C:\Project\NCNewssite\NCNewssiteFlushCache\GAC\NCNewssiteFlushCache.pdb
+C:\Project\NCNewssite\NCNewssiteFlushCache\obj\Debug\ResolveAssemblyReference.cache
+C:\Project\NCNewssite\NCNewssiteFlushCache\obj\Debug\NCNewssiteFlushCache.dll
+C:\Project\NCNewssite\NCNewssiteFlushCache\obj\Debug\NCNewssiteFlushCache.pdb

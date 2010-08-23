@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="NCNewssitePatch1.UI.WebControls.WebParts.NCNewssiteLeftNavigationWebPart, NCNewssitePatch1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=191936cb64556eac" />
+      <importErrorMessage>Cannot import NCNewssiteLeftNavigation Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">NC Newssite left navigation web part</property>
+        <property name="Description" type="string">Render menu based on page structure in Pages list</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

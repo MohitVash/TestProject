@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="NCNewssiteFlushCache.UI.WebControls.WebParts.NCNewssiteFlushCacheWebPart, NCNewssiteFlushCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=117a78ab85308117" />
+      <importErrorMessage>Cannot import NCNewssiteFlushCache Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">NCNewssiteFlushCache</property>
+        <property name="Description" type="string">Description for NCNewssiteFlushCache</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

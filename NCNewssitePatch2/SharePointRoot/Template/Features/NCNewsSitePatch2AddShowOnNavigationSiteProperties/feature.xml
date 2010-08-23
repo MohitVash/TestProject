@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="b46bd994-b77b-4cc6-88e3-0da4ade45abf"
+          Title="NCNewsSitePatch2AddShowOnNavigationSiteProperties"
+          Description="Add Navigation properties to the NC Newssite"
+          Version="1.0.0.0"
+          Hidden="TRUE"
+          Scope="Site"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2e6bc683c5314ddb"
+          ReceiverClass="NCNewssitePatch2.EventHandlers.Features.NCNewsSitePatch2AddShowOnNavigationSitePropertiesReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

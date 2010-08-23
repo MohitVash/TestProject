@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="155706c3-d44f-43e5-bf11-fe605f370295"
+          Title="NCNewssiteBrandingMasterFiles"
+          Description="Adds and activated master file for site"
+          Version="1.0.0.0"
+          Hidden="TRUE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssiteBranding, Version=1.0.0.0, Culture=neutral, PublicKeyToken=864f4bb004ab5032"
+          ReceiverClass="NCNewssiteBranding.EventHandlers.Features.NCNewssiteBrandingMasterFilesReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

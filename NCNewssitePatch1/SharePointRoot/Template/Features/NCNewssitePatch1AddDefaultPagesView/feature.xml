@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="2e5a1454-53b1-48f2-84d5-919c0e708e31"
+          Title="NCNewssitePatch1AddDefaultPagesView"
+          Description="Description for NCNewssitePatch1AddDefaultPagesView"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=191936cb64556eac"
+          ReceiverClass="NCNewssitePatch1.EventHandlers.Features.NCNewssitePatch1AddDefaultPagesViewReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

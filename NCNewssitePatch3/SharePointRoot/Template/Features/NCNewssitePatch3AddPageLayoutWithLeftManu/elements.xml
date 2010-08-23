@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="NCNewssitePatch3AddCustomPageLayout" Url="_catalogs/masterpage" RootWebOnly="TRUE" >
+    <File Url="PageFromDocLayoutWithLeftMenu.aspx"  Type="GhostableInLibrary" >
+      <Property Name="Title" Value="Layout with Left Menu" />
+      <Property Name="ContentType" Value="Article Page" />
+      <Property Name="PublishingPreviewImage" Value="~SiteCollection/_catalogs/masterpage/en-US/Preview%20Images/ArticleBodyOnly.png, ~SiteCollection/_catalogs/masterpage/en-US/Preview%20Images/ArticleBodyOnly.png" />
+      <Property Name="PublishingAssociatedContentType" Value=";#Article Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF3900242457EFB8B24247815D688C526CD44D;#" />
+    </File>
+  </Module>
+</Elements>

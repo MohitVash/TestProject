@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="20c4c45b-d9de-4274-b83f-03408fc24c4f"
+          Title="NC Newssite Flush Cache"
+          Description="Web Part to flush the cache for whole site"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Site"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssiteFlushCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=117a78ab85308117"
+          ReceiverClass="NCNewssiteFlushCache.EventHandlers.Features.NCNewssiteFlushCacheReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>
+    <ElementFile Location="NCNewssiteFlushCache.webpart" />
+  </ElementManifests>
+</Feature>

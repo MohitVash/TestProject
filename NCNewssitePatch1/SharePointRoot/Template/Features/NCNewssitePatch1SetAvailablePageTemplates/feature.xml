@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="38f9b048-398c-4299-ae9a-648765b4fb51"
+          Title="NCNewssitePatch1SetAvailablePageTemplates"
+          Description="Description for NCNewssitePatch1SetAvailablePageTemplates"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=191936cb64556eac"
+          ReceiverClass="NCNewssitePatch1.EventHandlers.Features.NCNewssitePatch1SetAvailablePageTemplatesReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

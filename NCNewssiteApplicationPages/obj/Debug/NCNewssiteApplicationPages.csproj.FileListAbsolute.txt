@@ -1,0 +1,6 @@
+C:\Project\NCNewssite\NCNewssiteApplicationPages\GAC\NCNewssiteApplicationPages.dll
+C:\Project\NCNewssite\NCNewssiteApplicationPages\GAC\NCNewssiteApplicationPages.pdb
+C:\Project\NCNewssite\NCNewssiteApplicationPages\GAC\JohnHolliday.Caml.Net.dll
+C:\Project\NCNewssite\NCNewssiteApplicationPages\obj\Debug\ResolveAssemblyReference.cache
+C:\Project\NCNewssite\NCNewssiteApplicationPages\obj\Debug\NCNewssiteApplicationPages.dll
+C:\Project\NCNewssite\NCNewssiteApplicationPages\obj\Debug\NCNewssiteApplicationPages.pdb

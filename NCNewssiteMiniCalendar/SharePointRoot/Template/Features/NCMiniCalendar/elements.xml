@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="WebPartPopulation" Url="_catalogs/wp" RootWebOnly="TRUE">
+    <File Url="NCMiniCalendar.webpart" Type="GhostableInLibrary">
+      <Property Name="Group" Value="NC Newssite"></Property>
+      <Property Name="QuickAddGroups" Value="NC Newssite" />
+    </File>
+  </Module>
+</Elements>

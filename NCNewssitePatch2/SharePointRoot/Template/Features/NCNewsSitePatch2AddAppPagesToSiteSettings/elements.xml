@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomActionGroup  Description = "Text"  Id = "NCNewsSiteSettings" Location = "Microsoft.SharePoint.SiteSettings" Sequence = "9999"
+  Title = "NCNewsSite Custom Settings" ImageUrl="~site/_layouts/images/NewCo/english.jpg">
+</CustomActionGroup>
+
+  <CustomAction
+        Id="ArticleSelectDialogSettings"
+        GroupId="NCNewsSiteSettings"
+        Location="Microsoft.SharePoint.SiteSettings"
+        RequireSiteAdministrator="TRUE"
+        Sequence="1"
+        Title="Article Select Dialog Settings" >
+    <UrlAction
+        Url="_layouts/NCNewssiteApplicationPages/ArticleSelectDialog.aspx"/>
+  </CustomAction>
+  <CustomAction
+        Id="BlogSelectDialogSettings"
+        GroupId="NCNewsSiteSettings"
+        Location="Microsoft.SharePoint.SiteSettings"
+        RequireSiteAdministrator="TRUE"
+        Sequence="2"
+        Title="Blog Select Dialog Settings" >
+    <UrlAction
+        Url="_layouts/NCNewssiteApplicationPages/BlogSelectDialog.aspx"/>
+  </CustomAction>
+  <CustomAction
+        Id="IsBlankSiteProperty"
+        GroupId="NCNewsSiteSettings"
+        Location="Microsoft.SharePoint.SiteSettings"
+        RequireSiteAdministrator="TRUE"
+        Sequence="45"
+        Title="Edit IsBlankSite Property" >
+    <UrlAction
+        Url="_layouts/NCNewssiteApplicationPages/IsBlankSite.aspx"/>
+  </CustomAction>
+  <CustomAction
+        Id="EditSortOrder"
+        GroupId="NCNewsSiteSettings"
+        Location="Microsoft.SharePoint.SiteSettings"
+        RequireSiteAdministrator="TRUE"
+        Sequence="45"
+        Title="Edit Sort Order" >
+    <UrlAction
+        Url="_layouts/NCNewssiteApplicationPages/SortOrder.aspx"/>
+  </CustomAction>
+  <CustomAction
+        Id="NCNewsSiteSettings"
+        GroupId="NCNewsSiteSettings"
+        Location="Microsoft.SharePoint.SiteSettings"
+        RequireSiteAdministrator="TRUE"
+        Sequence="45"
+        Title="Navigation" >
+    <UrlAction
+        Url="_layouts/NCNewssiteApplicationPages/ShowOnNavigation.aspx"/>
+  </CustomAction>
+</Elements>

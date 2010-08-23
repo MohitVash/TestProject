@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="8e573401-2b06-4414-84b1-152aefbd1e4d"
+          Title="NCNewssitePatch1AddRootPageToPageList"
+          Description="Description for NCNewssitePatch1AddRootPageToPageList"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=191936cb64556eac"
+          ReceiverClass="NCNewssitePatch1.EventHandlers.Features.NCNewssitePatch1AddRootPageToPageListReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

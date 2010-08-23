@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Templates xmlns:ows="Microsoft SharePoint">
+  <Template Name="NCNewssite" ID="10087">
+    <Configuration ID="1" Title="NC Newssite portal" Hidden="False" ImageUrl="" DisplayCategory="NC Newssite" Description="This template is used for initializing a new site." >   </Configuration>
+  </Template>
+</Templates>

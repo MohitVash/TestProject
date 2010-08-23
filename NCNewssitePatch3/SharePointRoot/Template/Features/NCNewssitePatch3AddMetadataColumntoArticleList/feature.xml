@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="907ce7d6-cab3-4061-8172-c99ca4547ff7"
+          Title="NCNewssitePatch3AddMetadataColumntoArticleList"
+          Description="Feature that creat Enterprise Keywords coulmn to article list"
+          Version="1.0.0.0"
+          Hidden="TRUE"
+          Scope="Site"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=42040e33e8a3e0b2"
+          ReceiverClass="NCNewssitePatch3.EventHandlers.Features.NCNewssitePatch3AddMetadataColumntoArticleListReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

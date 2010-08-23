@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="850">
+    <Receiver>
+      <Name>PagesEventHandler</Name>
+      <Type>ItemAdded</Type>
+      <SequenceNumber>10000</SequenceNumber>
+      <Assembly>NCNewssitePatch1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=191936cb64556eac</Assembly>
+      <Class>NCNewssitePatch1.NCNewssitePatch1PagesEventHandler.PagesEventHandler</Class>
+      <Data></Data>
+      <Filter></Filter>
+    </Receiver>
+    <Receiver>
+      <Name>PagesEventHandler</Name>
+      <Type>ItemDeleting</Type>
+      <SequenceNumber>10000</SequenceNumber>
+      <Assembly>NCNewssitePatch1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=191936cb64556eac</Assembly>
+      <Class>NCNewssitePatch1.NCNewssitePatch1PagesEventHandler.PagesEventHandler</Class>
+      <Data></Data>
+      <Filter></Filter>
+    </Receiver>
+  </Receivers>
+</Elements>

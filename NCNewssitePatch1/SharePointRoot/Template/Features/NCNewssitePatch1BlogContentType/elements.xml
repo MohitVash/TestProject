@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ContentType ID="0x0100F4E9DB8CC9E044119D57D3DE2BCF43BF" Name="NCBlog" Group="NC Newssite" Version="25">
+    <FieldRefs>
+      <FieldRef DisplayName="Author" ID="{66c3b032-1a98-4920-a344-5ff177279042}" Required="TRUE" />
+      <FieldRef DisplayName="Publishing Start" ID="{cb47c729-34a7-4232-802c-59e944bea35f}" />
+      <FieldRef DisplayName="Publishing End" ID="{562e6c6d-2869-4b7e-a224-2e7cb481bacf}" />
+      <FieldRef DisplayName="Frontpage Header 1" ID="{98c14c58-a245-4909-8ae8-d23478faf6d4}" />
+      <FieldRef DisplayName="Frontpage Profilenews Image" ID="{d6dd133f-bf07-42f2-a796-2d72c7486eb1}" />
+      <FieldRef DisplayName="Header" ID="{f0cefb6a-49b3-426a-a78c-515ba704d96b}" />
+      <FieldRef DisplayName="Topimage" ID="{5eb7cfb0-df3b-48f3-99d3-385c7be64d30}" />
+      <FieldRef DisplayName="Topimage Text" ID="{fe5498a5-ef39-4103-b652-2ace00990a5b}"  />
+      <FieldRef DisplayName="Bodytext" ID="{e36d5336-9c8a-41d0-98b8-2e1b1e36aa4f}" />
+    </FieldRefs>
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+        <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+          <Display>NCBlogListForm</Display>
+          <Edit>ListForm</Edit>
+          <New>ListForm</New>
+        </FormTemplates>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>
+</Elements>

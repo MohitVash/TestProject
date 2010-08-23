@@ -1,0 +1,129 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssiteCore", "NCNewssiteCore\NCNewssiteCore.csproj", "{09BC4FAC-77DC-4BDA-AA8E-748F28463421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssitePatch1", "NCNewssitePatch1\NCNewssitePatch1.csproj", "{022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssiteLayout", "NCNewssiteLayout\NCNewssiteLayout.csproj", "{448B8830-0DF5-43D2-9781-5704CAAB5483}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssiteCommon", "NCNewssiteCommon\NCNewssiteCommon.csproj", "{2332BC81-F0C2-4790-BD72-55A53E8EDBF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssiteBranding", "NCNewssiteBranding\NCNewssiteBranding.csproj", "{DD8A0E6C-A0DA-48F6-8FA5-D5D08CACFD97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssiteApplicationPages", "NCNewssiteApplicationPages\NCNewssiteApplicationPages.csproj", "{A37BCDE7-AB06-422C-8461-42003E1BF72B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{303F28E8-9CC8-48A0-A2CA-B1144F1357A2}"
+	ProjectSection(SolutionItems) = preProject
+		Build.bat = Build.bat
+		BuildAndDeploy.bat = BuildAndDeploy.bat
+		Deploy.bat = Deploy.bat
+		Uninstall.bat = Uninstall.bat
+		Upgrade.bat = Upgrade.bat
+		Web Config settings.txt = Web Config settings.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssitePageSetup", "NCNewssitePageSetup\NCNewssitePageSetup.csproj", "{44D857AD-1390-4206-9DB1-FC06294A4E61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssitePatch2", "NCNewssitePatch2\NCNewssitePatch2.csproj", "{63A607D3-08B1-4D16-B521-1AC73DCD84C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssiteMiniCalendar", "NCNewssiteMiniCalendar\NCNewssiteMiniCalendar.csproj", "{7D895CD5-BDCF-44A2-B397-217DA30E8157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCNewssiteFlushCache", "NCNewssiteFlushCache\NCNewssiteFlushCache.csproj", "{A8A46117-27EC-418E-BCE2-7DEAB2EE2C4A}"
+EndProject
+Project("{00000000-0000-0000-0000-000000000000}") = "NCNewssitePatch3", "NCNewssitePatch3\NCNewssitePatch3.csproj", "{46D04C9A-A8C7-4C71-A46A-2931D92BFEC6}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://volund.bekk.no:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NCNewssiteCore\\NCNewssiteCore.csproj
+		SccProjectName1 = NCNewssiteCore
+		SccLocalPath1 = NCNewssiteCore
+		SccProjectUniqueName2 = NCNewssitePatch1\\NCNewssitePatch1.csproj
+		SccProjectName2 = NCNewssitePatch1
+		SccLocalPath2 = NCNewssitePatch1
+		SccProjectUniqueName3 = NCNewssiteLayout\\NCNewssiteLayout.csproj
+		SccProjectName3 = NCNewssiteLayout
+		SccLocalPath3 = NCNewssiteLayout
+		SccProjectUniqueName4 = NCNewssiteCommon\\NCNewssiteCommon.csproj
+		SccProjectName4 = NCNewssiteCommon
+		SccLocalPath4 = NCNewssiteCommon
+		SccProjectUniqueName5 = NCNewssiteBranding\\NCNewssiteBranding.csproj
+		SccProjectName5 = NCNewssiteBranding
+		SccLocalPath5 = NCNewssiteBranding
+		SccProjectUniqueName6 = NCNewssiteApplicationPages\\NCNewssiteApplicationPages.csproj
+		SccProjectName6 = NCNewssiteApplicationPages
+		SccLocalPath6 = NCNewssiteApplicationPages
+		SccProjectUniqueName7 = NCNewssitePageSetup\\NCNewssitePageSetup.csproj
+		SccProjectName7 = NCNewssitePageSetup
+		SccLocalPath7 = NCNewssitePageSetup
+		SccProjectUniqueName8 = NCNewssitePatch2\\NCNewssitePatch2.csproj
+		SccProjectName8 = NCNewssitePatch2
+		SccLocalPath8 = NCNewssitePatch2
+		SccProjectUniqueName9 = NCNewssiteMiniCalendar\\NCNewssiteMiniCalendar.csproj
+		SccProjectName9 = NCNewssiteMiniCalendar
+		SccLocalPath9 = NCNewssiteMiniCalendar
+		SccProjectUniqueName10 = NCNewssiteFlushCache\\NCNewssiteFlushCache.csproj
+		SccProjectName10 = NCNewssiteFlushCache
+		SccLocalPath10 = NCNewssiteFlushCache
+		SccProjectUniqueName11 = NCNewssitePatch3\\NCNewssitePatch3.csproj
+		SccProjectName11 = NCNewssitePatch3
+		SccLocalPath11 = NCNewssitePatch3
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09BC4FAC-77DC-4BDA-AA8E-748F28463421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BC4FAC-77DC-4BDA-AA8E-748F28463421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BC4FAC-77DC-4BDA-AA8E-748F28463421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BC4FAC-77DC-4BDA-AA8E-748F28463421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448B8830-0DF5-43D2-9781-5704CAAB5483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448B8830-0DF5-43D2-9781-5704CAAB5483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448B8830-0DF5-43D2-9781-5704CAAB5483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448B8830-0DF5-43D2-9781-5704CAAB5483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2332BC81-F0C2-4790-BD72-55A53E8EDBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2332BC81-F0C2-4790-BD72-55A53E8EDBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2332BC81-F0C2-4790-BD72-55A53E8EDBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2332BC81-F0C2-4790-BD72-55A53E8EDBF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD8A0E6C-A0DA-48F6-8FA5-D5D08CACFD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD8A0E6C-A0DA-48F6-8FA5-D5D08CACFD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD8A0E6C-A0DA-48F6-8FA5-D5D08CACFD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD8A0E6C-A0DA-48F6-8FA5-D5D08CACFD97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37BCDE7-AB06-422C-8461-42003E1BF72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37BCDE7-AB06-422C-8461-42003E1BF72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37BCDE7-AB06-422C-8461-42003E1BF72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37BCDE7-AB06-422C-8461-42003E1BF72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D857AD-1390-4206-9DB1-FC06294A4E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D857AD-1390-4206-9DB1-FC06294A4E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D857AD-1390-4206-9DB1-FC06294A4E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D857AD-1390-4206-9DB1-FC06294A4E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A607D3-08B1-4D16-B521-1AC73DCD84C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A607D3-08B1-4D16-B521-1AC73DCD84C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A607D3-08B1-4D16-B521-1AC73DCD84C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A607D3-08B1-4D16-B521-1AC73DCD84C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D895CD5-BDCF-44A2-B397-217DA30E8157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D895CD5-BDCF-44A2-B397-217DA30E8157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D895CD5-BDCF-44A2-B397-217DA30E8157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D895CD5-BDCF-44A2-B397-217DA30E8157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A46117-27EC-418E-BCE2-7DEAB2EE2C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A46117-27EC-418E-BCE2-7DEAB2EE2C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A46117-27EC-418E-BCE2-7DEAB2EE2C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A46117-27EC-418E-BCE2-7DEAB2EE2C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D04C9A-A8C7-4C71-A46A-2931D92BFEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D04C9A-A8C7-4C71-A46A-2931D92BFEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D04C9A-A8C7-4C71-A46A-2931D92BFEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D04C9A-A8C7-4C71-A46A-2931D92BFEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

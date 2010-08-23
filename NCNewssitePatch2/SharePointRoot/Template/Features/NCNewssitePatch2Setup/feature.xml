@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="6d1ef199-7ddf-442a-9f2a-cd5f465210db"
+          Title="NCNewssitePatch2Setup"
+          Description="Description for NCNewssitePatch2Setup"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2e6bc683c5314ddb"
+          ReceiverClass="NCNewssitePatch2.EventHandlers.Features.NCNewssitePatch2SetupReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

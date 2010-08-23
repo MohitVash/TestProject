@@ -1,0 +1,3 @@
+<add name="NCNewssiteTopNavigationProviderLevel1" description="" type="NCNewssiteCommon.NavigationProviders.NCNewssiteTopNavigationProviderLevel1, NCNewssiteCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f41f4fff3613b326" />
+<add name="NCNewssiteTopNavigationProviderLevel2" description="" type="NCNewssiteCommon.NavigationProviders.NCNewssiteTopNavigationProviderLevel2, NCNewssiteCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f41f4fff3613b326" />
+<add name="NCNewssiteSiteMapProvider" description="" type="NCNewssiteCommon.NavigationProviders.NCNewssiteSiteMapProvider, NCNewssiteCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f41f4fff3613b326" />

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field Type="Note" DisplayName="Announcement text" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" RichText="TRUE" RichTextMode="Compatible" Sortable="FALSE" Group="NC Newssite Announcement" ID="{0a204216-de5e-4af2-a0cc-732cb39616ea}" SourceID="{161bbde8-a342-4f3a-b47e-7efc972dd354}" StaticName="AnnouncementText" Name="AnnouncementText" RestrictedMode="TRUE" IsolateStyles="FALSE" AppendOnly="FALSE" UnlimitedLengthInDocumentLibrary="FALSE" Version="2" Hidden="FALSE" Customization="" ReadOnly="FALSE" PITarget="" PrimaryPITarget="" PIAttribute="" PrimaryPIAttribute="" Aggregation="" Node="" />
+  <Field Type="DateTime" DisplayName="Announcement date" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateTime" Group="NC Newssite Announcement" ID="{0bf67612-7e42-42c0-b436-914769705998}" SourceID="{161bbde8-a342-4f3a-b47e-7efc972dd354}" StaticName="AnnouncementDate" Name="AnnouncementDate" Customization="">
+    <Default>[today]</Default>
+  </Field>
+  <ContentType ID="0x0100DD7E2163BE4DE344A891F7FAF688A30C" Name="Service announcement" Group="NC Newssite" Version="4">
+    <FieldRefs>
+      <FieldRef DisplayName="Announcement text" ID="{0a204216-de5e-4af2-a0cc-732cb39616ea}" />
+      <FieldRef DisplayName="Announcement date" ID="{0bf67612-7e42-42c0-b436-914769705998}" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

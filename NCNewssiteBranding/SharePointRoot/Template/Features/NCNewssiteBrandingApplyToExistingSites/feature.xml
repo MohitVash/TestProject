@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="980dcea3-154c-4b13-a32a-08fe2ee7ca4a"
+          Title="NCNewssiteBrandingApplyToExistingSites"
+          Description="Applies branding to all sites, including any sub sites. This feature only affects existing sites, not new sites. This feature does not remain activated."
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Site"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssiteBranding, Version=1.0.0.0, Culture=neutral, PublicKeyToken=864f4bb004ab5032"
+          ReceiverClass="NCNewssiteBranding.EventHandlers.Features.NCNewssiteBrandingApplyToExistingSitesReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

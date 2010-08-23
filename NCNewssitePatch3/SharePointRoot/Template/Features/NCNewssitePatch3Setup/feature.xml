@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="2c282cde-1adf-4fb6-8041-7b0003d0ea78"
+          Title="NCNewssitePatch3Setup"
+          Description="Feature to add all the features of patch 3"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=42040e33e8a3e0b2"
+          ReceiverClass="NCNewssitePatch3.EventHandlers.Features.NCNewssitePatch3SetupReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

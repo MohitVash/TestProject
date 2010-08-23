@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="659c47c6-e9cb-43dc-8f82-d6500c659ede"
+          Title="NCNewssiteLayoutFrontpage"
+          Description="Description for NCNewssiteLayoutFrontpage"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssiteLayout, Version=1.0.0.0, Culture=neutral, PublicKeyToken=eced502c3409483c"
+          ReceiverClass="NCNewssiteLayout.EventHandlers.Features.NCNewssiteLayoutFrontpageReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

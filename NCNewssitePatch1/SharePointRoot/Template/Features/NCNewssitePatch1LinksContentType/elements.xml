@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ContentType ID="0x0100500E09B76D88F97614D9EDBEA4DDECE0B5301" Name="NCLink" Group="NC Newssite" Version="25">
+    <FieldRefs>
+      <FieldRef DisplayName="URL" ID="{c29e077d-f466-4d8e-8bbe-72b66c5f205c}" Required="TRUE" />
+      <FieldRef DisplayName="Notes" ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

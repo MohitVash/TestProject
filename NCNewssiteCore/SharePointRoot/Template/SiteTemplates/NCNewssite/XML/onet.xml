@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project
+  Title="NC Newssite Portal"
+  xmlns="http://schemas.microsoft.com/sharepoint/">
+  <NavBars>
+    <NavBar ID="1002"/>
+  </NavBars>
+  <DocumentTemplates></DocumentTemplates>
+  <Configurations>
+    <Configuration ID="1"
+                   Name="NC Newssite Portal"
+               >
+      <WebFeatures>
+        <Feature ID="b7452a48-dd4c-4dca-9400-4e8c5072b154" Name="Setup"/>
+      </WebFeatures>
+    </Configuration>
+  </Configurations>
+</Project>

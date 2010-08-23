@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="25105fff-4489-4da6-8c37-ad834d7edd62"
+          Title="NCNewsSitePatch2AddAppPagesToSiteSettings"
+          Description="Add Custom Settings to NC Newssite"
+          Version="1.0.0.0"
+          Hidden="TRUE"
+          Scope="Site"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2e6bc683c5314ddb"
+          ReceiverClass="NCNewssitePatch2.EventHandlers.Features.NCNewsSitePatch2AddAppPagesToSiteSettingsReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="0bdb2a5a-8b39-4fab-b94f-0e0eb97db7e2"
+          Title="NCNewssitePatch2ModifyArticlePageCT"
+          Description="Modify the Page content type for Navigation properties"
+          Version="1.0.0.0"
+          Hidden="TRUE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2e6bc683c5314ddb"
+          ReceiverClass="NCNewssitePatch2.EventHandlers.Features.NCNewssitePatch2ModifyArticlePageCTReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

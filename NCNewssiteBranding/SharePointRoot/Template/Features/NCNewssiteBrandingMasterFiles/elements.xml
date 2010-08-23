@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="DefaultMaster" Url="_catalogs/masterpage" Path="">
+    <File Url="ncnewssite.master" Type="GhostableInLibrary"></File>
+  </Module>
+  <Module Name="Styles" Url="Styles" Path="">
+    <File Url="ie.css" Type="Ghostable"></File>
+    <File Url="screen.css" Type="Ghostable"></File>
+    <File Url="print.css" Type="Ghostable"></File>
+  </Module>
+</Elements>

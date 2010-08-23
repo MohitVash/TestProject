@@ -1,0 +1,946 @@
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;xxvertical-align:baseline;}
+dl, dt, dd, ol, ul, li {border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;xxvertical-align:baseline;}
+article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+/*table, td, th {vertical-align:middle;}*/
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+/* typography.css */
+html {font-size:100.01%;}
+body {font-size:75%;color:#222;background:#aaa;font-family: Arial, Helvetica, sans-serif;}
+body * {font-family: Arial, Helvetica, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-weight:bold;color:#222222;}
+h1 {font-size:3em;line-height:1;margin-bottom:0em;}
+h2 {font-size:2em;margin-bottom:0.75em;}
+h3 {font-size:1.5em;line-height:1;margin-bottom:0.75em;}
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:0.75em;}
+h5 {font-size:1em;line-height:1.5;font-weight:bold;margin-bottom:0.75em;}
+h6 {font-size:1em;line-height:1.25;font-weight:bold;margin-bottom:0em;}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+p {margin:0 0 1em;}
+p img.left {float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
+p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
+a:focus, a:hover {color: #222222;outline: none;}
+blockquote {margin:1.5em;color: gray;font-style:italic;}
+strong {font-weight:bold;}
+em, dfn {font-style:italic;}
+dfn {font-weight:bold;}
+sup, sub {line-height:0;}
+abbr, acronym {border-bottom: 1px dotted gray;}
+address {margin:0 0 1.5em;font-style:italic;}
+del {color: gray;}
+pre {margin:1.5em 0;white-space:pre;}
+pre, code, tt {font:1em 'andale mono', 'lucida console', monospace;line-height:1.5;}
+/*
+li ul, li ol {margin:0;}
+ul, ol {margin:0 1.5em 1.5em 0;padding-left:3.333em;}
+*/
+ul {list-style-type:disc;}
+ol {list-style-type:decimal;}
+dl {margin:0 0 1.5em 0;}
+dl dt {font-weight:bold;}
+dd {margin-left:1.5em;}
+/*
+table {margin-bottom:1.4em;width:100%;}
+th {font-weight:bold;}
+thead th {background:#0076B7;color:white;}
+th, td, caption {padding:4px 10px 4px 5px;}
+tr.even td {background:#e5eff5;}
+tfoot {font-style:italic;}
+caption {background:#eee;}
+*/
+.small {font-size:.9em;margin-bottom:1.5em;line-height:1.5em;}
+.large {font-size:1.2em;line-height:2.5em;margin-bottom:1.25em;}
+.hide {display:none;}
+.first {margin-left:0;padding-left:0;}
+.last {margin-right:0;padding-right:0;}
+.top {margin-top:0;padding-top:0;}
+.bottom {margin-bottom:0;padding-bottom:0;}
+
+/* forms.css */
+label {font-weight:bold;}
+fieldset {padding:1.4em;margin:0 0 1.5em 0;border:none;}
+legend {font-weight:bold;font-size:1.2em;}
+input[type=text], input[type=password], input.text, input.title, textarea, select {background-color:#fff;border: 1px solid gray;}
+input[type=text]:focus, input[type=password]:focus, input.text:focus, input.title:focus, textarea:focus, select:focus {border-color: gray;}
+input[type=text], input[type=password], input.text, input.title, textarea,{margin:0;padding:2px;}
+select {margin:0;padding:0px;border: 1px solid gray;}
+input.text, input.title {width:300px;padding:0px;}
+input.title {font-size:1.5em;}
+textarea {width:390px;height:250px;padding:2px;}
+input[type=checkbox], input[type=radio], input.checkbox, input.radio {position:relative;top:.25em;}
+form.inline {line-height:3;}
+form.inline p {margin-bottom:0;}
+
+/* grid.css */
+.container {
+  width: 960px;
+  margin: 0 auto;
+  background: white;
+  padding:0 20px 0 20px;
+  }
+  
+.column, div.span-1, div.span-2, div.span-3, div.span-4, div.span-5 {
+  float: left;
+  margin-right: 10px;
+}
+
+/* The last column in a row needs this class. */
+.last, div.last { margin-right: 0; }
+.span-1 { width: 184px; }
+.span-2 { width: 378px; }
+.span-3 { width: 572px; }
+.span-4 { width: 766px; }
+.span-5, div.span-5 { width: 960px; margin: 0; }
+
+input.span-1, textarea.span-1, input.span-2, textarea.span-2, input.span-3, textarea.span-3, input.span-4, textarea.span-4 {
+  border-left-width: 1px!important;
+  border-right-width: 1px!important;
+  padding-left: 5px!important;
+  padding-right: 5px!important;
+}
+
+input.span-1, textarea.span-1 { width: 172px !important; }
+input.span-2, textarea.span-2 { width: 366px !important; }
+input.span-3, textarea.span-3 { width: 560px !important; }
+input.span-4, textarea.span-4 { width: 754px !important; }
+input.span-5, textarea.span-5 { width: 948px !important; }
+
+/* Add these to a column to append empty cols. */
+
+.append-1 { padding-right: 194px; }
+.append-2 { padding-right: 388px; }
+.append-3 { padding-right: 582px; }
+.append-4 { padding-right: 776px; }
+
+/* Add these to a column to prepend empty cols. */
+
+.prepend-1 { padding-left: 194px; }
+.prepend-2 { padding-left: 388px; }
+.prepend-3 { padding-left: 582px; }
+.prepend-4 { padding-left: 776px; }
+
+/* Border on right hand side of a column. */
+div.border {
+  padding-right: 4px;
+  margin-right: 5px;
+  border-right: 1px solid gray;
+  margin-bottom:1em;
+}
+
+/* Border with more whitespace, spans one column. */
+div.colborder {
+  padding-right: 24px;
+  margin-right: 25px;
+  border-right: 1px solid gray;
+}
+
+/* Use these classes on an element to push it into the 
+next column, or to pull it into the previous column.  */
+
+.pull-1 { margin-left: -194px; }
+.pull-2 { margin-left: -388px; }
+.pull-3 { margin-left: -582px; }
+.pull-4 { margin-left: -776px; }
+.pull-5 { margin-left: -970px; }
+
+.pull-1, .pull-2, .pull-3, .pull-4 { float: left; position:relative; }
+
+.push-1 { margin: -194px 1.5em 194px; }
+.push-2 { margin: -388px 1.5em 388px; }
+.push-3 { margin: -582px 1.5em 582px; }
+.push-4 { margin: -776px 1.5em 776px; }
+.push-5 { margin: -970px 1.5em 970px; }
+
+.push-1, .push-2, .push-3, .push-4 {float: right; position:relative;}
+
+.prepend-top {margin-top:1.5em;}
+.append-bottom {margin-bottom:1.5em;}
+.box {padding:1.5em;margin-bottom:1.5em;background:white;}
+hr {background:#0076B7;color:#0076B7;clear:both;float:none;width:100%;height:1px;margin:0 0 1em;border:none;}
+hr.space {background:#fff;color:#fff;visibility:hidden;}
+.clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.clearfix:after, .container:after {
+  content: "\0020"; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;
+  overflow:hidden; 
+}
+.clearfix, .container {display: block;}
+
+/* Regular clearing
+   apply to column that should drop below previous ones. */
+
+.clear { clear:both; }
+.left { float: left; }
+.right { float: right; }
+
+/* Branding */
+#branding{
+	margin-bottom: 0;
+}
+
+/* Main Navigation*/
+.main-navi ul {
+	padding:0;
+	padding-left:12px;
+	list-style:none;
+}
+.main-navi li {
+	float:left;
+	margin:0;
+	padding:0 0 0 0px;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+.main-navi a {
+	float:left;
+	display:block;
+	width:.1em;
+	background: #aaa;
+	padding:3px 18px 8px 16px;
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+	xxborder-right:1px solid #577d8f;
+	white-space: nowrap;
+}
+.msie6 .main-navi a{ /* IE6 only */
+	padding:3px 18px 7px 16px;
+}
+.main-navi a.active {
+	background: #aaa;
+	color: white;
+	cursor: default;
+}
+.main-navi > ul a {width:auto;}
+	/* Commented Backslash Hack hides rule from IE5-Mac \*/
+.main-navi a {float:none;}
+	/* End IE5-Mac hack */
+.main-navi a:hover {
+	text-decoration: underline;
+}
+.main-navi li {
+	background-position:0 0;
+	border-width:0;
+}
+.main-navi a {
+	background-position:0 10;
+	margin-bottom:1px;
+	padding-bottom:4px;
+	color:white;
+}
+.main-navi li:hover, .main-navi li:hover a {
+	text-decoration: none;
+}
+.main-navi li:hover a {
+	background-position:0px -3px;
+}
+.main-navi a:active{
+	color: white;
+}
+
+/* Sub Navigation */
+.sub-navi ul {
+	margin: -3px 0 0 0;
+	padding: 3px 0 0 12px;
+	list-style:none;
+	xxbackground: #eee;
+}
+.sub-navi li {
+	float:left;
+	margin:0;
+	padding:0 0 0 9px;
+	margin-top:2px;
+}
+.sub-navi a {
+	float:left;
+	display:block;
+	width:.1em;
+	padding:4px 18px 6px 10px;
+	text-decoration:none;
+	font-weight:bold;
+	color: #222222;
+	xxborder-right:1px solid #8abfdb;
+	white-space: nowrap;
+	background-position:0 0;
+}
+.msie6 .subnavi a{
+	padding:2px 18px 7px 10px;
+}
+.sub-navi a.active {
+	background: #ccc;
+	color: #222222;
+	cursor: default;
+}	
+.sub-navi > ul a {width:auto;}
+	/* Commented Backslash Hack hides rule from IE5-Mac \*/
+.sub-navi a {float:none;}
+	/* End IE5-Mac hack */
+.sub-navi a:hover {
+	color: #222222;
+	text-decoration: none;
+}
+.sub-navi li {
+	background-position:0 0;
+	border-width:0;
+}
+.sub-navi li:hover, .sub-navi li:hover a {
+	background-position:0 0;
+	color: #222222;
+}
+.sub-navi a:active{
+	color: #222222;
+}
+.main-navi a.last,.sub-navi a.last{
+	border-right: 0px solid #222222;
+}
+
+/* SearchForm */
+#supp-navi form{
+	margin-top:0;
+}
+#search input.search{
+	margin-top:20px;
+	margin-right:0px;
+	width: 116px;
+	font-size: 100%;
+	padding: 3px 3px 4px 3px;
+	float:left;
+}
+#search select.search{
+	margin-top:20px;
+	margin-right:10px;
+	width: 124px;
+	font-size: 100%;
+	padding: 2px 3px 3px 3px;
+	float:left;
+}
+#search .button{
+    background: transparent url(/_layouts/images/NewCo/bg_button.gif) no-repeat scroll top right;
+    color: #222222;
+	 float:left;
+    height: 24px;
+    width: 90px;
+    margin-top:20px;
+    margin-right: 0px;
+    padding-right: 0px; /* sliding doors padding */
+    text-decoration: none;
+    border:none;
+    cursor: pointer;
+}
+.msie #search .button{
+	 padding-top:0px;
+	 margin-top: 17px;
+}
+#search .button:active {
+    background-position: bottom right;
+    color: #222222;
+    outline: none;
+}
+
+/* Siteinfo */
+.siteinfo{
+	margin:0;
+	margin-top:1em;
+	width: 936px;
+	margin:0;
+	padding:1em;
+	float: left;
+	background: #aaa;
+	color:white;
+	margin-bottom: 1em;
+}
+.siteinfo p{
+	margin-bottom: 0em;
+}
+.siteinfo a {
+	color:white;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+}
+.siteinfo a:hover{
+	border-bottom: 1px solid white;
+}
+.header{
+	background: #aaa;	
+	height: auto;
+	color:white;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:3px;
+	padding-bottom: 3px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.content{
+	border:1px solid #aaa;
+	padding:10px;
+	padding-right:10px;
+	margin-bottom: 1.3em;
+	background:#eee;	
+}
+.content hr{
+	background:#0076B7;color:#0076B7;clear:both;float:none;width:100%;height:1px;margin:0 0 1em;border:none;
+}
+.more{
+	text-align: right;
+}
+img{
+	margin-bottom: 0em;
+}
+.newsSideColumn a,
+.newsContentColumn a,
+.content a,
+.boxed .more a,
+.boxed .small a{
+	color: #0076B7;
+	text-decoration: none;
+	border-bottom: 1px solid #0076B7;
+}
+.content a:hover,
+.boxed .more a:hover,
+.boxed .small a:hover{
+	xxborder-bottom: 1px solid #0076B7;
+}
+.newsSideColumn .ms-WPHeaderTdMenu a,
+.newsContentColumn .ms-WPHeaderTdMenu a
+{
+	border-bottom: none;
+}
+.ms-WPBody a:hover
+{
+    text-decoration:none;
+}
+MSO_ContentTable .navigation a
+{
+	border-bottom: none;
+}
+#branding{
+	margin-top:20px;
+}
+.byline{
+	color:gray;
+	font-style: italic;
+	text-align: right;
+}
+.boxed{
+	padding:1em;
+}
+.msie img{
+	margin-bottom:-3px;
+}
+.boxed img{
+	margin-bottom: 1em;
+}
+#branding p{
+	margin-top:12px;
+	margin-bottom: 8px;
+}
+#branding img{
+	margin-left:10px;
+}
+.bottomborder{
+	border-bottom: 1px solid gray;
+}
+.content img{
+	float: left;
+	margin-right:1em;
+	margin-bottom:1.4em;
+}
+
+/* Language */
+.language-dan{
+	width:16px;
+	height:12px;
+	background: url(/_layouts/images/NewCo/dansk.jpg) no-repeat 0 100%;
+	float:right;
+	margin-left:10px;
+}
+.language-dan:hover{
+	width:16px;
+	height:12px;
+	background: url(/_layouts/images/NewCo/dansk.jpg) no-repeat 0 0;
+}
+.language-no{
+	width:16px;
+	height:12px;
+	background: url(/_layouts/images/NewCo/norsk.jpg) no-repeat 0 100%;
+	float:right;
+	margin-left:10px;
+}
+.language-no:hover{
+	width:16px;
+	height:12px;
+	background: url(/_layouts/images/NewCo/norsk.jpg) no-repeat 0 0;
+}
+.language-en{
+	width:16px;
+	height:12px;
+	background: url(/_layouts/images/NewCo/english.jpg) no-repeat 0 100%;
+	float:right;
+	margin-left:10px;	
+}
+.language-en:hover{
+	width:16px;
+	height:12px;
+	background: url(/_layouts/images/NewCo/english.jpg) no-repeat 0 0;
+}
+
+/* Breadcrumps */
+#breadcrump{
+	background: #eee;
+	margin-bottom:1em;
+	padding-right: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;		
+	}
+#breadcrump p{
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-left: 10px;
+	color:#0076B7;
+}
+#breadcrump .disabled {
+	color:#666;
+	/*border-bottom: #000000 0px solid;*/
+}
+#breadcrump a{
+	color:#0076B7;
+	text-decoration: none;
+	border-bottom: 1px solid #0076B7;
+}
+#breadcrump a:hover{
+	border-bottom: 1px solid #0076B7;	
+}
+/* 3-4. level navigation */
+.navigation
+{
+    word-wrap: break-word;
+    font-size: 12px;
+}
+.navigation ul{
+	padding-left:16px!important;
+	margin: 0!important;
+	xxlist-style: url(/_layouts/images/NewCo/navi-arrow-right.gif);
+	list-style: none;
+}
+.navigation li.collapsed
+{
+	xxlist-style: url(/_layouts/images/NewCo/navi-arrow-right.gif);
+}
+.navigation li.expanded
+{
+	xxlist-style: url(/_layouts/images/NewCo/navi-arrow-down.gif);
+}
+.navigation ul li a{
+	font-weight:bold;
+	white-space: nowrap;
+	border-bottom: none;
+}
+.navigation ul ul{
+	padding-left:10px;
+	margin-bottom: 0px;
+}
+.navigation ul li.active{
+	xxlist-style: url(/_layouts/images/NewCo/navi-arrow-down.gif);
+}
+
+.navigation ul ul{
+	list-style: none;
+}
+.navigation ul ul li.active{
+	list-style: none;
+}
+
+.navigation ul ul li a{
+	font-weight:normal;
+}
+.navigation ul li.active > a,
+.navigation a:hover
+{
+	border-bottom: 1px solid #0076B7;
+}
+.navigation .submenuToggle
+{
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 3px 7px 3px -17px;
+}
+.navigation .expanded > .submenuToggle
+{
+    background-image: url(/_layouts/images/NewCo/navi-arrow-down.gif);
+}
+.navigation .collapsed > .submenuToggle
+{
+    background-image: url(/_layouts/images/NewCo/navi-arrow-right.gif);
+}
+.navigation .collapsed > ul
+{
+    display: none;
+}
+/***/
+#supp-navi .s4-wpTopTable
+{
+    margin: 20px 0 0 0;
+    width: auto!important;
+    float: right;
+}
+.s4-search select.ms-sbscopes, .s4-search input.ms-sbplain
+{
+    border: 1px solid gray;
+    color: #000;
+    margin-top:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+input.s4-searchbox-QueryPrompt
+{
+    font-style: normal;
+}
+.showRibbonLink,
+.hideRibbonLink
+{
+    text-decoration: none;
+    color: #0076B7;
+    float: right;
+    clear:right;
+}
+.leftmenu ul ul
+{
+    margin-left: 10px;
+}
+.menu .menu-item, .menu .menu-item .additional-background, .menu .menu-item .additional-background .menu-item-text {
+    display:inline;
+}
+.menu-horizontal {
+    display:block;
+}
+.menu-horizontal ul.static {
+    display: block;
+}
+.main-navi > div > div > ul a {width:auto;}
+.sub-navi > div > div > ul a {width:auto;}
+
+.main-navi a.selected {
+	background: #ddd;
+	color: #222;
+	cursor: default;
+	padding-bottom: 5px;
+	margin-bottom: 0px;
+}
+.sub-navi a.selected 
+{
+    font-weight: bold;
+	background: #eee;
+	color: #222222;
+	cursor: default;
+}
+/* Page description */
+.ms-webpartpagedescription  {
+    display:none;
+}
+/* left menu */
+.s4-specialNavLinkList {
+    display:none;
+}
+/* Top menu */
+div.sub-navi
+{
+    background: #ddd;
+    margin-bottom: 10px;
+    margin:-3px 0 12px 0;
+    height:30px;
+}
+div.main-navi
+{
+    background: #aaa;
+    margin:14px 0 0;
+    height:32px;
+}
+/* News article */
+.MSO_ContentDiv > div
+{
+    padding-left: 0!important;
+}
+.articleRightColumn
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.articleImage,
+.leadText
+{
+    margin-bottom: 1em;
+}
+.articleImage
+{
+    font-style: italic;
+}
+.articleImage div
+{
+    display: inline;
+}
+.articleImage div div img
+{
+    max-width: 552px;
+}
+.leadText div,
+.leadText p
+{
+    display: inline;
+    font-weight:bold;
+}
+.bodyText
+{
+    width: 548px;
+}
+.ms-WPBody a,
+.ms-WPBody a:link,
+.ms-WPBody a:visited {
+    color:#0076B7;
+}
+.ms-WPBody
+{
+    font-size: 12px;
+}
+/* Frontpage */
+.newsSideColumn .s4-wpTopTable .ms-wpContentDivSpace /* copy from .content */
+{
+    background:#eee;
+    border:1px solid #aaa;
+    margin-bottom:1.3em;
+    padding:10px;
+    width: 162px;
+    float: left;
+    font-size: 12px;
+}
+.msie7 .newsSideColumn .s4-wpTopTable .ms-wpContentDivSpace /* might work for all browsers, but limit to ie7 for safety */
+{
+    float: none;
+}
+.s4-wpTopTable .ms-wpContentDivSpace
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+.newsSideColumn .s4-wpTopTable .ms-WPHeader
+{
+	background: #aaa;	
+	height: auto;
+	color:white;
+	font-weight: bold;
+	margin-bottom: 0px;
+	width: 184px;
+    float: left;    
+}
+.newsSideColumn .s4-wpTopTable .ms-WPHeader .ms-WPHeaderTd /* copy from .header */
+{
+	padding-left:10px;
+	padding-right:10px;
+}
+.newsContentColumn
+{
+    width: 572px;
+}
+.newsSideColumn .s4-wpTopTable .ms-WPTitle,
+.newsLeftColumn .s4-wpTopTable .ms-WPHeader a:active
+{
+    color: white;
+    font-weight: bold;
+    font-size: 9pt;
+    padding: 5px 4px 7px 0;
+}
+.newsSideColumn .s4-wpcell .s4-wpTopTable
+{
+    border-width: 0;
+}
+.newsSideColumn ul
+{
+    padding-left: 20px;
+    margin: 1em 0;
+}
+.newsLeftColumn
+{
+    width: 184px;
+    padding-right: 10px;
+}
+.newsContentColumn
+{
+    width: 582px;
+}
+.newsrightColumn
+{
+    width: 184px;
+}
+.wpCenterLeftColumnRow1 .ms-PartSpacingVertical
+{
+    display: none;
+}
+.wpCenterLeftColumnRow1 div.border {
+    border-bottom:1px solid gray;
+    margin-bottom:0;
+}
+#s4-statusbarcontainer /* Publishin page status */
+{
+    clear: both;
+}
+.frontpageTopStory h1
+{
+    font-size: 36px;
+    display: inline;
+}
+.frontpageProfileNews h3 {
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 0.75em;
+}
+.frontpageProfileNews .frontpageNewsImage
+{
+    float: left;
+    padding-right: 10px;
+}
+.frontpageProfileNews .more
+{
+    clear: both;
+}
+.frontpageProfileNews .newsDescription,
+.frontpageTopStory .newsDescription,
+.frontpageProfileNews .more,
+.frontpageTopStory .more
+{
+    font-size: 12px;
+}
+h3.ms-standardheader.ms-WPTitle
+{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight:bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a.newsHeader
+{
+    border-bottom: none!important;
+    color: #000!important;
+}
+.newsSideColumn .ms-WPBody .span-1
+{
+    width: 162px;
+}
+.newsSideColumn .ms-WPBody .span-1 .boxed
+{
+    width: 162px;
+    padding: 0;
+}
+.wpCenterLeftColumnRow1 .frontpageProfileNews.border,
+.wpCenterLeftColumnRow2 .frontpageProfileNews.border,
+.wpCenterLeftColumnRow3 .frontpageProfileNews.border
+{
+    margin-right: 17px;
+}
+.wpCenterRightColumnRow1 .latestNews .boxed,
+.wpCenterRightColumnRow2 .latestNews .boxed,
+.wpCenterRightColumnRow3 .latestNews .boxed
+{
+    padding-left: 0;
+    padding-right: 20px;
+}
+/* Search page */
+.ms-descriptiontext {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+h1.articleTopStoryHeader
+{
+    font-size: 2.5em;
+}
+.nc-articleedit-header
+{
+    font-family: Arial; 
+    font-weight:bold; 
+    font-size: 10px;
+}
+.nc-articleedit-sublabel
+{
+    float:right;
+    padding-top:4px;
+    font-size:11px;
+}
+.nc-articleedit-browse
+{
+    width:100px;
+    height:16px;
+    font-size: 10.6666px; 
+    font-family:Verdana,sans-serif; 
+    height: 20px; 
+    margin-left: 5px;
+}
+/* mini calandar*/
+.ms-TodayDayStyle
+{
+    background-color:#CCCCCC;
+    color:Black;
+}
+.ms-DayHeaderStyle
+{
+    background-color:#CCCCCC;
+    font-weight:bold;
+    font-size:7pt;
+}
+.ms-NextPrevStyle
+{
+    vertical-align:bottom;
+}    
+.ms-OtherMonthDayStyle
+{
+    color:#808080;
+}
+.ms-SelectedDayStyle
+{
+    background-color:#666666;
+    font-weight:bold;
+    color:White;
+}
+.ms-SelectorStyle
+{
+    background-color:#CCCCCC;
+}
+.ms-TitleStyle
+{
+    border-color:Black;
+    font-weight:bold;
+    background-color:#999999;
+}
+.ms-WeekendDayStyle
+{
+    background-color:#FFFFCC;
+}
+.tip
+{
+    min-width:120px;
+    max-width: 200px;
+    background-color: #ffffaa;
+    padding: 2px 4px 2px 4px;
+    display: none;
+    position: absolute;
+    border: 1px solid #aaa000;
+}
+.ms-taxonomy-fieldeditor
+{
+   border:1px solid gray;
+   height:16px;
+   width:386px;
+}

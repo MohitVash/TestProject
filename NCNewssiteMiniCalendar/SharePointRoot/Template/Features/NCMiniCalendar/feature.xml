@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="d89e25f9-09e4-4dbc-9b37-3bd8b9334628"
+          Title="NC Mini Calendar"
+          Description="Mini calendar for NC newssite"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Site"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssiteMiniCalendar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3f1d5c108ffbc6f2"
+          ReceiverClass="NCNewssiteMiniCalendar.EventHandlers.Features.NCMiniCalendarReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>
+    <ElementFile Location="NCMiniCalendar.webpart" />
+  </ElementManifests>
+</Feature>

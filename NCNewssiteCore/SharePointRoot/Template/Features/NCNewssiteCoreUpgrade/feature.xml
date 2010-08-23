@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="e9592c40-fc01-4571-803d-a7dc1a52af3c"
+          Title="NCNewssiteCoreUpgrade"
+          Description="Description for NCNewssiteCoreUpgrade"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssiteCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a8fe3a952e834ee1"
+          ReceiverClass="NCNewssiteCore.EventHandlers.Features.NCNewssiteCoreUpgradeReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

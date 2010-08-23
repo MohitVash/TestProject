@@ -1,0 +1,5 @@
+C:\Project\NCNewssite\NCNewssitePatch3\GAC\NCNewssitePatch3.dll
+C:\Project\NCNewssite\NCNewssitePatch3\GAC\NCNewssitePatch3.pdb
+C:\Project\NCNewssite\NCNewssitePatch3\obj\Debug\ResolveAssemblyReference.cache
+C:\Project\NCNewssite\NCNewssitePatch3\obj\Debug\NCNewssitePatch3.dll
+C:\Project\NCNewssite\NCNewssitePatch3\obj\Debug\NCNewssitePatch3.pdb

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="e5a829e6-c026-44db-9886-82efdd5d872a"
+          Title="NCNewssitePatch3AddPageLayoutWithLeftManu"
+          Description="Feature to add a custom page layout with left manu"
+          Version="1.0.0.0"
+          Hidden="TRUE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch3, Version=1.0.0.0, Culture=neutral, PublicKeyToken=42040e33e8a3e0b2"
+          ReceiverClass="NCNewssitePatch3.EventHandlers.Features.NCNewssitePatch3AddPageLayoutWithLeftManuReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

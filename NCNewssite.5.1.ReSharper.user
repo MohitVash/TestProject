@@ -1,0 +1,136 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1ModifyArticlePageCT/f:NCNewssitePatch1ModifyArticlePageCTReceiver.cs" caret="1169" fromTop="9" />
+      <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1PagesEventHandler/f:NCNewssitePatch1PagesEventHandlerReceiver.cs" caret="552" fromTop="3" />
+      <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1PagesEventHandler/f:PagesEventHandler.cs" caret="560" fromTop="6" />
+      <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1AddRootPageToPageList/f:NCNewssitePatch1AddRootPageToPageListReceiver.cs" caret="779" fromTop="13" />
+      <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1SetAvailablePageTemplates/f:NCNewssitePatch1SetAvailablePageTemplatesReceiver.cs" caret="1116" fromTop="15" />
+      <File id="63A607D3-08B1-4D16-B521-1AC73DCD84C7/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch2ModifyArticlePageCT/f:NCNewssitePatch2ModifyArticlePageCTReceiver.cs" caret="895" fromTop="12" />
+      <File id="63A607D3-08B1-4D16-B521-1AC73DCD84C7/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch2ModifyArticlePageCT/f:feature.xml" caret="725" fromTop="12" />
+      <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1CustomContentQuery/f:NCNewssitePatch1CustomContentQueryWebPart.cs" caret="1999" fromTop="0" />
+      <File id="63A607D3-08B1-4D16-B521-1AC73DCD84C7/d:SharePointRoot/d:Template/d:CONTROLTEMPLATES/f:NCCustomTemplates.ascx" caret="0" fromTop="0" />
+      <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1CustomContentQuery/f:NCNewssitePatch1CustomContentQueryToolPart.cs" caret="9621" fromTop="22" />
+      <File id="A37BCDE7-AB06-422C-8461-42003E1BF72B/d:SharePointRoot/d:Template/d:Layouts/d:NCNewssiteApplicationPages/f:ArticleSelectDialog.aspx.cs" caret="3780" fromTop="26" />
+      <File id="7D895CD5-BDCF-44A2-B397-217DA30E8157/d:SharePointRoot/d:Template/d:Features/d:NCMiniCalendar/f:NCMiniCalendarWebPart.cs" caret="12743" fromTop="39" />
+      <File id="7D895CD5-BDCF-44A2-B397-217DA30E8157/d:SharePointRoot/d:Template/d:Features/d:NCMiniCalendar/f:NCMiniCalendarToolpart.cs" caret="3850" fromTop="32" />
+      <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch3AddPageLayoutWithLeftManu/f:NCNewssitePatch3AddPageLayoutWithLeftManuReceiver.cs" caret="0" fromTop="0" />
+      <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch3AddMetadataColumntoArticleList/f:NCNewssitePatch3AddMetadataColumntoArticleListReceiver.cs" caret="1196" fromTop="27" />
+      <File id="DD8A0E6C-A0DA-48F6-8FA5-D5D08CACFD97/d:SharePointRoot/d:Template/d:Features/d:NCNewssiteBrandingMasterFiles/f:screen.css" caret="20871" fromTop="20" />
+      <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:CONTROLTEMPLATES/f:NCCustomTemplates.ascx" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch1AddRootPageToPageList/f:NCNewssitePatch1AddRootPageToPageListReceiver.cs" caret="796" fromTop="13" />
+      <File id="63A607D3-08B1-4D16-B521-1AC73DCD84C7/d:SharePointRoot/d:Template/d:Features/d:NCNewssitePatch2ModifyArticlePageCT/f:feature.xml" caret="276" fromTop="4" />
+      <File id="63A607D3-08B1-4D16-B521-1AC73DCD84C7/d:SharePointRoot/d:Template/d:CONTROLTEMPLATES/f:NCCustomTemplates.ascx" caret="23261" fromTop="7" />
+      <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:CONTROLTEMPLATES/f:NCCustomTemplates.ascx" caret="25444" fromTop="9" />
+      <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:CONTROLTEMPLATES/f:NCCustomTemplates.ascx" caret="25444" fromTop="8" />
+      <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:CONTROLTEMPLATES/f:NCCustomTemplates.ascx" caret="22657" fromTop="11" />
+      <File id="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6/d:SharePointRoot/d:Template/d:CONTROLTEMPLATES/f:NCCustomTemplates.ascx" caret="7457" fromTop="22" />
+      <File id="DD8A0E6C-A0DA-48F6-8FA5-D5D08CACFD97/d:SharePointRoot/d:Template/d:Features/d:NCNewssiteBrandingMasterFiles/f:screen.css" caret="21195" fromTop="38" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="pageLayouts" priority="13" />
+      <Item value="pWeb" priority="0" />
+      <Item value="publishingWeb" priority="11" />
+      <Item value="SPContentType`0" priority="0" />
+      <Item value="web" priority="7" />
+      <Item value="SPSite`0" priority="0" />
+      <Item value="site" priority="1" />
+      <Item value="PublishingSite`0" priority="0" />
+      <Item value="publishingSite" priority="5" />
+      <Item value="new" priority="6" />
+      <Item value="PublishingSite" priority="0" />
+      <Item value="associatedContentType" priority="2" />
+      <Item value="true" priority="3" />
+      <Item value="if" priority="1" />
+      <Item value="null" priority="2" />
+      <Item value="false" priority="1" />
+      <Item value="PublishingWeb`0" priority="2" />
+      <Item value="PublishingWeb" priority="1" />
+      <Item value="SPFolder" priority="1" />
+      <Item value="foreach" priority="0" />
+      <Item value="pageLayout" priority="2" />
+      <Item value="DecoderFallbackException`0" priority="0" />
+      <Item value="PageLayout" priority="2" />
+      <Item value="PageLayout`0" priority="1" />
+      <Item value="customPageLayout" priority="4" />
+      <Item value="PageLayoutCollection`0" priority="0" />
+      <Item value="pageLayoutCollection" priority="0" />
+      <Item value="ContentTypeId`0" priority="0" />
+      <Item value="contentTypeId" priority="0" />
+      <Item value="contentType" priority="0" />
+      <Item value="return" priority="1" />
+      <Item value="n" priority="1" />
+      <Item value="List&lt;PageLayout&gt;" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="newPageLayoutList" priority="0" />
+      <Item value="adUser" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.Publishing.PublishingWeb">
+      <Item value="AllowAllPageLayouts`0" priority="1" />
+      <Item value="DefaultPageLayout" priority="0" />
+      <Item value="SetAvailablePageLayouts`0" priority="2" />
+      <Item value="Update`0" priority="0" />
+      <Item value="Url" priority="0" />
+      <Item value="GetAvailablePageLayouts`0" priority="2" />
+      <Item value="SetDefaultPageLayout`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPWeb">
+      <Item value="ContentTypes" priority="0" />
+      <Item value="Site" priority="0" />
+      <Item value="Folders" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.Publishing.PublishingSite">
+      <Item value="ContentTypes" priority="0" />
+      <Item value="GetPageLayouts`0" priority="2" />
+      <Item value="PageLayouts" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.Publishing.PageLayoutCollection">
+      <Item value="ToArray`0" priority="0" />
+      <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.SharePoint.Publishing.PublishingWeb">
+      <Item value="GetPublishingWeb`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPFolderCollection">
+      <Item value="Folder" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.Publishing.PageLayout">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Equals`0" priority="0" />
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+      <Item value="AddRange`0" priority="0" />
+      <Item value="ToArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.SharePoint.SPFieldUserValue">
+      <Item value="User" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

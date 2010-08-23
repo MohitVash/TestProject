@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="46D04C9A-A8C7-4C71-A46A-2931D92BFEC6" ModuleId="NCNewssitePatch3" />
+  <Module PersistentId="022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F" ModuleId="NCNewssitePatch1" />
+  <Module PersistentId="63A607D3-08B1-4D16-B521-1AC73DCD84C7" ModuleId="NCNewssitePatch2" />
+  <Module PersistentId="7D895CD5-BDCF-44A2-B397-217DA30E8157" ModuleId="NCNewssiteMiniCalendar" />
+  <Module PersistentId="A37BCDE7-AB06-422C-8461-42003E1BF72B" ModuleId="NCNewssiteApplicationPages" />
+</Modules>

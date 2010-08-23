@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="639f0a5f-387c-4d00-afc2-2b1950370608"
+          Title="NCNewssiteBrandingApplyToNewSites"
+          Description="Automatically apply branding to all new sites."
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Site"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssiteBranding, Version=1.0.0.0, Culture=neutral, PublicKeyToken=864f4bb004ab5032"
+          ReceiverClass="NCNewssiteBranding.EventHandlers.Features.NCNewssiteBrandingApplyToNewSitesReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

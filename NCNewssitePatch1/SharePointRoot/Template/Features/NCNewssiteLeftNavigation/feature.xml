@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="a7d6e985-c7ad-40b0-a0f9-8b01832089de"
+          Title="NCNewssiteLeftNavigation"
+          Description="Left Navigation Menu for NC Newssite"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=191936cb64556eac"
+          ReceiverClass="NCNewssitePatch1.EventHandlers.Features.NCNewssiteLeftNavigationReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>
+    <ElementFile Location="NCNewssiteLeftNavigation.webpart" />
+  </ElementManifests>
+</Feature>

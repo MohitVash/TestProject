@@ -1,0 +1,58 @@
+﻿body {
+}
+.ms-TodayDayStyle
+{
+    background-color:#CCCCCC;
+    color:Black;
+}
+
+.ms-DayHeaderStyle
+{
+    background-color:#CCCCCC;
+    font-weight:bold;
+    font-size:7pt;
+}
+
+.ms-NextPrevStyle
+{
+    vertical-align:bottom;
+}    
+
+.ms-OtherMonthDayStyle
+{
+    color:#808080;
+ }
+
+.ms-SelectedDayStyle
+{
+    background-color:#666666;
+    font-weight:bold;
+    color:White;
+ }
+
+.ms-SelectorStyle
+{
+    background-color:#CCCCCC;
+}
+
+.ms-TitleStyle
+{
+    border-color:Black;
+    font-weight:bold;
+    background-color:#999999;
+}
+
+.ms-WeekendDayStyle
+{
+    background-color:#FFFFCC;
+}
+.tip
+{
+    min-width:120px;
+    max-width: 200px;
+    background-color: #ffffaa;
+    padding: 2px 4px 2px 4px;
+    display: none;
+    position: absolute;
+    border: 1px solid #aaa000;
+}

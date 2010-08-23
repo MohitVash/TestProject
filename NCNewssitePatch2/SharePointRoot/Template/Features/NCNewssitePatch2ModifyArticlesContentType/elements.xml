@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!--<ContentType ID="0x01003050B6207FDC42F09D0B5A2FDFF5E529" Name="Article2" Group="NC Newssite" Version="25">
+    <FieldRefs>
+    </FieldRefs>
+    <XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+        <FormTemplates xmlns="http://schemas.microsoft.com/sharepoint/v3/contenttype/forms">
+          <Display>NCArticleListForm</Display>
+          <Edit>NCArticleListEditForm</Edit>
+          <New>NCArticleListEditForm</New>
+        </FormTemplates>
+      </XmlDocument>
+    </XmlDocuments>
+  </ContentType>-->
+</Elements>

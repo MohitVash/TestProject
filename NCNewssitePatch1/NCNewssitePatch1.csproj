@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{022BC8D3-FEAF-4BBA-B6B0-ED8FB8823E6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NCNewssitePatch1</RootNamespace>
+    <AssemblyName>NCNewssitePatch1</AssemblyName>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>NCNewssitePatch1.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>GAC\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>GAC\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="JohnHolliday.Caml.Net, Version=1.0.2850.20101, Culture=neutral, PublicKeyToken=1a6e75059df6ca83, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\3rd Party\JohnHolliday.Caml.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Publishing, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssiteLatestNewsWebPart\NCNewssiteLatestNewsWebPartReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssiteLatestNewsWebPart\NCNewssiteLatestNewsWebPartWebPart.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssiteLeftNavigation\NCNewssiteLeftNavigationReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssiteLeftNavigation\NCNewssiteLeftNavigationWebPart.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1AddDefaultArticlesView\NCNewssitePatch1AddDefaultArticlesViewReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1AddDefaultBlogView\NCNewssitePatch1AddDefaultBlogViewReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1AddDefaultLinksView\NCNewssitePatch1AddDefaultLinksViewReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1AddDefaultPagesView\NCNewssitePatch1AddDefaultPagesViewReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1AddRootPageToPageList\NCNewssitePatch1AddRootPageToPageListReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyArticleCTToArticleList\NCNewssitePatch1ApplyArticleCTToArticleListReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyBlogCTToBlogList\NCNewssitePatch1ApplyBlogCTToBlogListReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyDefaultMenuSortOrder\NCNewssitePatch1ApplyDefaultMenuSortOrderReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyLinksCTToLinksList\NCNewssitePatch1ApplyLinksCTToLinksListReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyServiceAnnouncementCTToList\NCNewssitePatch1ApplyServiceAnnouncementCTToListReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1ArticleContentType\NCNewssitePatch1ArticleContentTypeReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1ArticleList\NCNewssitePatch1ArticleListReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1BlogContentType\NCNewssitePatch1BlogContentTypeReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1BlogList\NCNewssitePatch1BlogListReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1CustomContentQuery\NCNewssitePatch1CustomContentQueryReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1CustomContentQuery\NCNewssitePatch1CustomContentQueryToolPart.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1CustomContentQuery\NCNewssitePatch1CustomContentQueryWebPart.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1LinksContentType\NCNewssitePatch1LinksContentTypeReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1LinksList\NCNewssitePatch1LinksListReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1ModifyArticlePageCT\NCNewssitePatch1ModifyArticlePageCTReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1PagesEventHandler\NCNewssitePatch1PagesEventHandlerReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1PagesEventHandler\PagesEventHandler.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1PortalSetup\NCNewssitePatch1PortalSetupReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1ServiceAnnouncementContentType\NCNewssitePatch1ServiceAnnouncementContentTypeReceiver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1ServiceAnnouncementList\NCNewssitePatch1ServiceAnnouncementListReceiver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1Setup\NCNewssitePatch1SetupReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1OrganizationUnitsList\NCNewssitePatch1OrganizationUnitsListReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1PictureLibrary\NCNewssitePatch1PictureLibraryReceiver.cs" />
+    <Compile Include="SharePointRoot\Template\Features\NCNewssitePatch1SetAvailablePageTemplates\NCNewssitePatch1SetAvailablePageTemplatesReceiver.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GAC\" />
+    <Folder Include="SharePointRoot\Template\Features\NCNewssiteLatestNewsWebPart\obj\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NCNewssitePatch1.snk" />
+    <Content Include="Manifest.Config" />
+    <Content Include="SharePointRoot\Template\CONTROLTEMPLATES\NCCustomBlogListTemplate.ascx" />
+    <Content Include="SharePointRoot\Template\CONTROLTEMPLATES\NCCustomTemplates.ascx" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssiteLatestNewsWebPart\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssiteLatestNewsWebPart\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssiteLeftNavigation\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssiteLeftNavigation\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1AddDefaultArticlesView\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1AddDefaultArticlesView\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1AddDefaultBlogView\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1AddDefaultBlogView\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1AddDefaultLinksView\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1AddDefaultLinksView\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1AddDefaultPagesView\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1AddDefaultPagesView\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1AddRootPageToPageList\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1AddRootPageToPageList\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyArticleCTToArticleList\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyArticleCTToArticleList\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyBlogCTToBlogList\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyBlogCTToBlogList\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyDefaultMenuSortOrder\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyDefaultMenuSortOrder\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyLinksCTToLinksList\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyLinksCTToLinksList\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyServiceAnnouncementCTToList\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ApplyServiceAnnouncementCTToList\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ArticleContentType\elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ArticleContentType\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ArticleList\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ArticleList\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1BlogContentType\elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1BlogContentType\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1BlogList\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1BlogList\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1CustomContentQuery\CustomItemStyle.xsl" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1CustomContentQuery\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1CustomContentQuery\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1LinksContentType\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1LinksContentType\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1LinksList\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1LinksList\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ModifyArticlePageCT\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ModifyArticlePageCT\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1PagesEventHandler\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1PagesEventHandler\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1PortalSetup\elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1PortalSetup\feature.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ServiceAnnouncementContentType\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ServiceAnnouncementContentType\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ServiceAnnouncementList\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1ServiceAnnouncementList\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1Setup\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1Setup\feature.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1OrganizationUnitsList\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1OrganizationUnitsList\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1PictureLibrary\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1PictureLibrary\feature.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1SetAvailablePageTemplates\elements.xml" />
+    <Content Include="SharePointRoot\Template\Features\NCNewssitePatch1SetAvailablePageTemplates\feature.xml" />
+    <Content Include="solutionid.txt" />
+    <Content Include="web.config" />
+    <Content Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+    <Content Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </Content>
+    <None Include="SharePointRoot\Template\Features\NCNewssiteLatestNewsWebPart\NCNewssiteLatestNewsWebPart.webpart" />
+    <None Include="SharePointRoot\Template\Features\NCNewssiteLeftNavigation\NCNewssiteLeftNavigation.webpart" />
+    <None Include="SharePointRoot\Template\Features\NCNewssitePatch1CustomContentQuery\NCNewssitePatch1CustomContentQuery.webpart" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349C5851-65DF-11DA-9384-00065B846F21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1517</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

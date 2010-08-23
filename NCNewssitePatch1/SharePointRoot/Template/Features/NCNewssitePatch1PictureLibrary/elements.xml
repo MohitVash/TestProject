@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance FeatureId="00BFEA71-52D4-45B3-B544-B1C71B620109"
+                TemplateType="109"
+                Title="Pictures"
+                Url="Pictures"
+                />
+</Elements>

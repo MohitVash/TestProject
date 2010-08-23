@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="NCNewssitePatch1.UI.WebControls.WebParts.NCNewssitePatch1CustomContentQueryWebPart, NCNewssitePatch1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=191936cb64556eac" />
+      <importErrorMessage>Cannot import NCNewssitePatch1CustomContentQuery Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">NC Content Query</property>
+        <property name="Description" type="string">Description for NC Content Query</property>
+
+        <property name="ItemStyle" type="string">TopStory</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

@@ -1,0 +1,5 @@
+C:\Project\NCNewssite\NCNewssiteMiniCalendar\GAC\NCNewssiteMiniCalendar.dll
+C:\Project\NCNewssite\NCNewssiteMiniCalendar\GAC\NCNewssiteMiniCalendar.pdb
+C:\Project\NCNewssite\NCNewssiteMiniCalendar\obj\Debug\ResolveAssemblyReference.cache
+C:\Project\NCNewssite\NCNewssiteMiniCalendar\obj\Debug\NCNewssiteMiniCalendar.dll
+C:\Project\NCNewssite\NCNewssiteMiniCalendar\obj\Debug\NCNewssiteMiniCalendar.pdb

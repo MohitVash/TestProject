@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="fa2838ed-a58b-4c1c-9af1-1e61a594b281"
+          Title="NCNewssitePatch1CustomContentQuery"
+          Description="Description for NCNewssitePatch1CustomContentQuery"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=191936cb64556eac"
+          ReceiverClass="NCNewssitePatch1.EventHandlers.Features.NCNewssitePatch1CustomContentQueryReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>
+    <ElementFile Location="NCNewssitePatch1CustomContentQuery.webpart" />
+  </ElementManifests>
+</Feature>

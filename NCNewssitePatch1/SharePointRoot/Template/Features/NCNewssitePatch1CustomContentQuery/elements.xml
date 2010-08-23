@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="WebPartPopulation" Url="_catalogs/wp" RootWebOnly="TRUE">
+    <File Url="NCNewssitePatch1CustomContentQuery.webpart" Type="GhostableInLibrary">
+      <Property Name="Group" Value="NC Newssite"></Property>
+      <Property Name="QuickAddGroups" Value="NC Newssite" />
+    </File>
+  </Module>
+  <Module Name="CustomItemStyle" Url="Style Library/XSL Style Sheets" Path="" RootWebOnly="TRUE">
+    <File Url="CustomItemStyle.xsl" Type="GhostableInLibrary"/>
+  </Module>
+</Elements>

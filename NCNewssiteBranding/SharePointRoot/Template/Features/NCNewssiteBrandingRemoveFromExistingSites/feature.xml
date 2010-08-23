@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="79d8efbd-f960-497b-b145-7f87f35ca371"
+          Title="NCNewssiteBrandingRemoveFromExistingSites"
+          Description="Removes branding from all sites, including any sub sites, even if any parent node does not have branding. This feature does not remain activated."
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Site"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssiteBranding, Version=1.0.0.0, Culture=neutral, PublicKeyToken=864f4bb004ab5032"
+          ReceiverClass="NCNewssiteBranding.EventHandlers.Features.NCNewssiteBrandingRemoveFromExistingSitesReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

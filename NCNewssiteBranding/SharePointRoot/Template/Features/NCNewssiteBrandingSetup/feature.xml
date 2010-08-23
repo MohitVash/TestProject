@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="e3411783-1c22-4d1c-b7f3-8f70c0e1e3f6"
+          Title="NCNewssiteBrandingSetup"
+          Description="Branding for NewCo"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssiteBranding, Version=1.0.0.0, Culture=neutral, PublicKeyToken=864f4bb004ab5032"
+          ReceiverClass="NCNewssiteBranding.EventHandlers.Features.NCNewssiteBrandingSetupReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

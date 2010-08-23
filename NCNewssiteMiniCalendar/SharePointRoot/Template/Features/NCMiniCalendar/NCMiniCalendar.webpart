@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="NCNewssiteMiniCalendar.UI.WebControls.WebParts.NCMiniCalendarWebPart, NCNewssiteMiniCalendar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3f1d5c108ffbc6f2" />
+      <importErrorMessage>Cannot import NCMiniCalendar Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">NCMiniCalendar</property>
+        <property name="Description" type="string">Description for NCMiniCalendar</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

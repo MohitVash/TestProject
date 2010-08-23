@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="7561b874-c423-49e8-8ef5-6330e327ec4b"
+          Title="NCNewssitePatch2ModifyArticlesList"
+          Description="Modify articles list as per requirements in - Change Article template"
+          Version="1.0.0.0"
+          Hidden="TRUE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="NCNewssitePatch2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2e6bc683c5314ddb"
+          ReceiverClass="NCNewssitePatch2.EventHandlers.Features.NCNewssitePatch2ModifyArticlesListReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>
