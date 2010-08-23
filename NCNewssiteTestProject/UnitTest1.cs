@@ -13,7 +13,7 @@ namespace NCNewssiteTestProject
         public void TestMethod1()
         {
             //mohit
-            Assert.AreEqual("Test", "Test");
+            Assert.AreEqual("Test", "Testpp");
         }
     }
 }
